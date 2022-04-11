@@ -1,0 +1,61 @@
+.albums{
+  position: absolute;
+  left: 30vh;
+  top: 0;
+}
+.albums-details{
+  position: absolute;
+  left: 30vh;
+  top: 0;
+  display: flex;
+}
+.albums-details-image{
+  padding: 20px;
+  width: 40vw;
+  height: 40vh;
+}
+.albums-details-description{
+  padding: 20px;
+}
+.tracks{
+  transform: translate(220px,140px);
+}
+.test{
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 35vh;
+  overflow-x: auto;
+  overflow-y: none;
+  align-content: center;
+}
+
+.cover{
+  display: flex;
+  margin-right: 20px;
+  text-align: center;
+}
+.hasard{
+  position: absolute;
+  left: 40vw;
+  top: 10vh;
+}
+.cover a{
+  color: #000
+}
+.t{
+  background-color: red;
+}
+.genre{
+  text-align: center;
+}
+.error{}
+.loading{}
+.nav p {
+color: black;
+margin: 10px;
+}
+.photo{
+  width: 20vw;
+  height: 20vw;
+}
